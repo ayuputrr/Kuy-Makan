@@ -1,2 +1,2 @@
-#KuyMakan
+# KuyMakan
 Kuy Makan adalah sebuah website diperuntukkan warung makan atau cafe-cafe yang dimana aplikasi website ini berfokus pada pemesanan makanan dan penotalan jumlah makanan yang harus dibayar, dengan desain yang baru dan interaktif membuat aplikasi ini dapat dikembangkan lagi untuk lebih luasnya. Aplikasi website ini menggunakan MockApi.io sebagai pengambilan data pada API berikut adalah Data API yang digunakan untuk Aplikasi Website ini : https://67ec14d7aa794fb3222cc82c.mockapi.io/api/food 
