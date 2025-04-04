@@ -1,0 +1,53 @@
+/* Custom override atau tambahan Bootstrap */
+
+body {
+  background-color: #8cb6e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.card img {
+  background-color: rgb(11, 255, 51);
+  transition: transform 0.2s ease;
+}
+
+.card img:hover {
+  
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-success {
+  background-color: #198754;
+  border: none;
+}
+.Footer {
+  background-color: #a9f14b;
+  padding: 20px 0;
+  text-align: center;
+}
+.floating {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

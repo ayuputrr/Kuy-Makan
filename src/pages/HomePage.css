@@ -1,0 +1,18 @@
+/* HomePage.css */
+.hero-section {
+    background: linear-gradient(135deg, #c28006);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .product-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: orange;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
