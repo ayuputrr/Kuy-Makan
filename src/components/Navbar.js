@@ -3,7 +3,6 @@ import './Navbar.css';
 
 function Navbar({ darkMode, setDarkMode }) {
   const navigate = useNavigate();
-  const isAdmin = localStorage.getItem('isAdmin') === 'true';
 
   const handleAdminClick = () => {
     const password = window.prompt('Masukkan sandi admin:');
@@ -15,41 +14,28 @@ function Navbar({ darkMode, setDarkMode }) {
     }
   };
 
-  const handleLogout = () => {
-    const confirmLogout = window.confirm('Keluar dari mode admin?');
-    if (confirmLogout) {
-      localStorage.removeItem('isAdmin');
-      navigate('/');
-    }
-  };
-
   return (
     <nav className="navbar navbar-expand-lg sticky-top shadow-sm navbar-green">
-      <div className="container">
-        {/* Logo Brand */}
-        <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
+      <div className="container d-flex justify-content-between align-items-center">
+
+       
+        <Link to="/" className="navbar-brand">
           <img
             src="/asset/icon/logo2.png"
             alt="Logo"
-            className="navbar-logo"
+            style={{
+              height: '85px', 
+              objectFit: 'contain'
+            }}
           />
-          <span className="fw-bold text-dark">Kuy Makan</span>
         </Link>
 
-        {/* Menu kanan */}
-        <div className="d-flex gap-3 ms-auto align-items-center">
-          {/* 🔐 Admin Panel */}
-          {!isAdmin ? (
-            <button className="btn btn-sm btn-outline-warning" onClick={handleAdminClick}>
-              🧑‍🍳 Admin Panel
-            </button>
-          ) : (
-            <button className="btn btn-sm btn-outline-danger" onClick={handleLogout}>
-              🚪 Keluar Admin
-            </button>
-          )}
+        <div className="d-flex gap-3 align-items-center ms-auto">
+         
+          <button className="btn btn-sm btn-outline-warning" onClick={handleAdminClick}>
+            🧑‍🍳 Admin Panel
+          </button>
 
-          {/* 🌙 Mode Dark/Light */}
           <button
             className="btn btn-sm btn-outline-dark"
             onClick={() => setDarkMode(prev => !prev)}
@@ -57,7 +43,7 @@ function Navbar({ darkMode, setDarkMode }) {
             {darkMode ? '☀️ Light' : '🌙 Dark'}
           </button>
 
-          {/* 🛒 Cart */}
+         
           <Link to="/cart" className="nav-link">
             <img
               src="/asset/icon/cart.png"
