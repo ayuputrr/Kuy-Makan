@@ -29,7 +29,7 @@ function Navbar({ darkMode, setDarkMode }) {
             src="/asset/icon/logo2.png"
             alt="Logo"
             className="navbar-logo"
-            style={{ height: '65px' }} 
+            style={{ height: '70px' }} 
           />
         </Link>
 
@@ -58,7 +58,7 @@ function Navbar({ darkMode, setDarkMode }) {
             <img
               src="/asset/icon/cart.png"
               alt="Cart"
-              style={{ width: '40px', height: '40px', objectFit: 'contain' }}
+              style={{ width: '55px', height: '55px', objectFit: 'contain' }}
             />
           </Link>
         </div>
