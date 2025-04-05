@@ -31,18 +31,19 @@ function Navbar({ darkMode, setDarkMode }) {
 
   return (
     <>
-
+      
       <nav className="navbar navbar-expand-lg sticky-top shadow-sm navbar-kuy px-3">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div className="d-flex align-items-center gap-3">
- 
-            <button
-              className="btn btn-outline-light"
-              onClick={() => setMenuOpen(prev => !prev)}
-            >
-              {menuOpen ? '✕' : '☰'}
-            </button>
+          <button
+              className="toggle-icon"
+              onClick={() => setMenuOpen(prev => !prev)}>
+            {menuOpen ? '✕' : '☰'}
+          </button>
 
+
+
+            
             <div className="cart-icon-wrapper">
               <Link to="/cart" className="cart-icon-link">
                 <img
@@ -52,13 +53,11 @@ function Navbar({ darkMode, setDarkMode }) {
                   style={{ width: '32px', height: '32px' }}
                 />
               </Link>
-              {cartCount > 0 && (
-                <span className="cart-badge">{cartCount}</span>
-              )}
+              {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
             </div>
           </div>
 
-
+          
           <Link to="/" className="navbar-brand ms-auto">
             <img
               src="/asset/icon/logo2.png"
@@ -69,6 +68,7 @@ function Navbar({ darkMode, setDarkMode }) {
         </div>
       </nav>
 
+      
       {menuOpen && (
         <>
           <div className="sidebar-menu">
@@ -91,7 +91,6 @@ function Navbar({ darkMode, setDarkMode }) {
               </button>
             </div>
           </div>
-
 
           <div className="sidebar-overlay" onClick={() => setMenuOpen(false)}></div>
         </>
