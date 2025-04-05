@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import './ProductCard.css'; // pastikan file CSS ini dibuat juga
+import './ProductCard.css';
 
 function ProductCard({ product }) {
   return (
