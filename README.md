@@ -1,5 +1,5 @@
 # KuyMakan
-Kuy Makan adalah sebuah website diperuntukkan warung makan atau cafe-cafe yang dimana aplikasi website ini berfokus pada pemesanan makanan, penotalan jumlah makanan yang harus dibayar serta pengelolaan list orderan yang dilakukan oleh kasir, dengan desain yang baru dan interaktif membuat aplikasi ini dapat dikembangkan lagi untuk lebih luasnya. Aplikasi website ini menggunakan MockApi.io sebagai pengambilan data pada API berikut adalah Data API yang digunakan untuk Aplikasi Website ini : https://67ec14d7aa794fb3222cc82c.mockapi.io/api/food 
+Kuy Makan adalah sebuah website diperuntukkan warung makan atau cafe-cafe yang dimana aplikasi website ini berfokus pada pemesanan makanan, penotalan jumlah makanan yang harus dibayar serta pengelolaan list orderan yang dilakukan oleh kasir, dengan desain yang baru dan interaktif membuat aplikasi ini dapat dikembangkan lagi untuk lebih luasnya. Aplikasi website ini menggunakan MockApi.io sebagai pengambilan data pada API.
 
 # Password Admin
 password yang dipakai oleh admin yaitu 123
@@ -57,7 +57,7 @@ http://localhost:3000/
 https://kuy-makan.vercel.app/
 ```
 
-**MockApi.io**
+**7. MockApi.io**
 ```bash
 https://67ec14d7aa794fb3222cc82c.mockapi.io/api/food 
 ```
