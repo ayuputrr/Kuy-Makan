@@ -26,27 +26,27 @@ password yang dipakai oleh admin yaitu 123
 
   
 ## 📥 Cara Menjalankan Secara Lokal
-**1. Clone repositori ini** 
+# 1. Clone repositori ini
 git clone https://github.com/username/kuymakan.git
-**2. Masuk ke direktori proyek**
+# 2. Masuk ke direktori proyek
 bash
 Copy
 Edit
 cd kuymakan
-**3. Install dependencies**
+# 3. Install dependencies
 bash
 Copy
 Edit
 npm install
-**4. Jalankan aplikasi**
+# 4. Jalankan aplikasi
 bash
 Copy
 Edit
 npm start
-**5. Akses di browser**
+# 5. Akses di browser
 http://localhost:3000/
 
-**6. Deploy Aplikasi Web**
+# 6. Deploy Aplikasi Web
 https://kuy-makan.vercel.app/
 
 
