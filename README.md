@@ -4,6 +4,52 @@ Kuy Makan adalah sebuah website diperuntukkan warung makan atau cafe-cafe yang d
 # Password Admin
 password yang dipakai oleh admin yaitu 123
 
+
+
+## ✨ Fitur Utama
+
+- 🧾 **Pemesanan Makanan**
+- 🛒 **Manajemen Keranjang**
+- 🔍 **Pencarian Menu**
+- 📱 **Desain Responsif** 
+- 🔐 **Login Admin** 
+
+
+
+## 📌 Teknologi yang Digunakan
+
+- **React.js**
+- **React Router DOM**
+- **Bootstrap**
+- **MockAPI.io**
+- **Vercel**
+
+  
+## 📥 Cara Menjalankan Secara Lokal
+**1. Clone repositori ini** 
+git clone https://github.com/username/kuymakan.git
+**2. Masuk ke direktori proyek**
+bash
+Copy
+Edit
+cd kuymakan
+**3. Install dependencies**
+bash
+Copy
+Edit
+npm install
+**4. Jalankan aplikasi**
+bash
+Copy
+Edit
+npm start
+**5. Akses di browser**
+http://localhost:3000/
+
+**6. Deploy Aplikasi Web**
+https://kuy-makan.vercel.app/
+
+
 # 1. Tampilan Logo
 ![logo](https://github.com/user-attachments/assets/61eb19bc-062f-4b9a-9bc5-9fe135f47d70)
 
