@@ -1,4 +1,4 @@
-// src/pages/AdminPage.js
+
 import { useEffect, useState } from 'react';
 
 function AdminPage() {
