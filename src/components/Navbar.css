@@ -1,10 +1,10 @@
 
 .sidebar-menu {
   position: fixed;
-  top: 85px; 
+  top: 85px;
   left: 0;
   width: 220px;
-  height: calc(100% - 85px); 
+  height: calc(100% - 85px);
   background-color: #c28006;
   z-index: 1050;
   padding-top: 1.5rem;
@@ -25,7 +25,6 @@
   z-index: 1040;
 }
 
-
 .close-btn {
   position: absolute;
   top: 15px;
@@ -36,7 +35,14 @@
   cursor: pointer;
   color: white;
 }
-
+.toggle-icon {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 .cart-icon {
   width: 35px;
@@ -59,28 +65,6 @@
   color: white !important;
 }
 
-.navbar-kuy .navbar-brand img {
-  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
-}
-
-
-@media (max-width: 768px) {
-  .sidebar-menu {
-    width: 200px;
-  }
-
-  .sidebar-overlay {
-    left: 200px;
-    width: calc(100% - 200px);
-  }
-
-  .cart-icon {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-
 .cart-icon-wrapper {
   position: relative;
   display: inline-block;
@@ -98,4 +82,25 @@
   border-radius: 50%;
   z-index: 10;
   line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar-menu {
+    width: 200px;
+  }
+
+  .sidebar-overlay {
+    left: 200px;
+    width: calc(100% - 200px);
+  }
+
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .cart-badge {
+    font-size: 11px;
+    padding: 2px 5px;
+  }
 }
