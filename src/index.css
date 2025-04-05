@@ -16,7 +16,7 @@ body {
 }
 
 .card img {
-  background-color: rgb(11, 255, 51);
+  background-color:  rgb(255, 255, 255);
   transition: transform 0.2s ease;
 }
 
