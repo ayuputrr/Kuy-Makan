@@ -35,14 +35,21 @@
   cursor: pointer;
   color: white;
 }
+
 .toggle-icon {
   background: none;
   border: none;
-  color: black;
   font-size: 28px;
-  font-weight: bold;
+  color: black;
   cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.2s ease;
 }
+
+.toggle-icon:hover {
+  color: #333;
+}
+
 
 .cart-icon {
   width: 35px;
