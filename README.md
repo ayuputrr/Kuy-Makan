@@ -25,29 +25,42 @@ password yang dipakai oleh admin yaitu 123
 - **Vercel**
 
   
-## 📥 Cara Menjalankan Secara Lokal
-# 1. Clone repositori ini
-git clone https://github.com/username/kuymakan.git
-# 2. Masuk ke direktori proyek
-bash
-Copy
-Edit
-cd kuymakan
-# 3. Install dependencies
-bash
-Copy
-Edit
-npm install
-# 4. Jalankan aplikasi
-bash
-Copy
-Edit
-npm start
-# 5. Akses di browser
-http://localhost:3000/
+ ## 🚀 Langkah Menjalankan Aplikasi KuyMakan
 
-# 6. Deploy Aplikasi Web
+ **1. Clone Repositori**
+```bash
+git clone https://github.com/username/kuymakan.git
+```
+
+**2. Masuk ke direktori proyek**
+```bash
+cd kuymakan
+```
+
+**3. Install dependencies**
+```bash
+npm install
+```
+
+**4. Jalankan aplikasi**
+```bash
+npm start
+```
+
+**5. Akses di browser**
+```bash
+http://localhost:3000/
+```
+
+**6. Deploy Aplikasi Web (Vercel)**
+```bash
 https://kuy-makan.vercel.app/
+```
+
+**MockApi.io**
+```bash
+https://67ec14d7aa794fb3222cc82c.mockapi.io/api/food 
+```
 
 
 # 1. Tampilan Logo
